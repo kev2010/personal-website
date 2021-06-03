@@ -1,0 +1,35 @@
+<template>
+  <div id="app">
+    <!-- Set name or it defaults to '/' in router.js -->
+    <router-view/>
+  </div>
+</template>
+
+<script>
+export default {
+  name: "app"
+};
+</script>
+
+<!-- global styles -->
+<style>
+/* @import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap'); */
+
+:root {
+  --primary-main: #041021;
+  --primary-light: #071C38;
+  --emphasis: #5647FF;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Cairo", Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #FFFFFF;
+  margin: 0;
+}
+</style>
