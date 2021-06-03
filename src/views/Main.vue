@@ -1,6 +1,6 @@
 <template>
   <div class="app">
-    <Navbar/>
+    <Navbar class="navbar"/>
   </div>
 </template>
 
@@ -17,5 +17,13 @@ export default {
 </script>
 
 <style scoped>
+.app {
+  background-color: var(--primary-main);
+  display: flex;
+  justify-content: center;
+}
 
+.navbar {
+  width: 40%;
+}
 </style>

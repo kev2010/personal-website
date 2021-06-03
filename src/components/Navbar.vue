@@ -2,19 +2,19 @@
     <div class="nav-bar">
         <ul class="nav-links">
             <li>
-                <router-link to="/about" class="about" tag="button">ABOUT</router-link>
+                <router-link to="/about" class="section">ABOUT</router-link>
             </li>
             <li>
-                <router-link to="/experience" class="experience" tag="button">EXPERIENCE</router-link>
+                <router-link to="/experience" class="section">EXPERIENCE</router-link>
             </li>
             <li>
-                <router-link to="/projects" class="projects" tag="button">PROJECTS</router-link>
+                <router-link to="/projects" class="section">PROJECTS</router-link>
             </li>
             <li>
-                <router-link to="/activities" class="activities" tag="button">ACTIVITIES</router-link>
+                <router-link to="/activities" class="section">ACTIVITIES</router-link>
             </li>
             <li>
-                <router-link to="/lets-talk" class="lets-talk" tag="button">LET'S TALK</router-link>
+                <router-link to="/lets-talk" class="section contact">LET'S TALK</router-link>
             </li>
         </ul>
     </div>
@@ -45,5 +45,20 @@ export default {
 .nav-links li {
     display: flex;
     align-items: center;
+}
+
+.section {
+    text-decoration: none;
+    color: white;
+}
+
+.section:hover {
+    text-decoration: var(--emphasis) solid underline;
+    text-decoration-thickness: 2px;
+    text-underline-position: under;
+}
+
+.contact {
+    color: var(--emphasis);
 }
 </style>
