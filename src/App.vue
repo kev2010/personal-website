@@ -13,7 +13,7 @@ export default {
 
 <!-- global styles -->
 <style>
-/* @import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;600;700;900&display=swap');
 
 :root {
   --primary-main: #041021;
