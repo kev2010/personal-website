@@ -169,7 +169,7 @@ export default {
 }
 
 .kevin {
-    width: 700px;
+    width: 40%;
     margin-left: 2rem;
 }
 </style>

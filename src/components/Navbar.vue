@@ -32,6 +32,7 @@ export default {
     font-style: normal;
     font-weight: bold;
     font-size: 18px;
+    margin-top: 1rem;
 }
 
 .nav-links {
