@@ -25,11 +25,16 @@ export default {
   box-sizing: border-box;
 }
 
-body {
+html, body {
   font-family: "Cairo", Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #FFFFFF;
+  background-color: var(--primary-main);
   margin: 0;
+  height: 100%;
+}
+
+#app {
+  height: 100%;
 }
 </style>
