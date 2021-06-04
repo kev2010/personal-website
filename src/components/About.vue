@@ -13,6 +13,20 @@
            machine learning, and mobile/web development. In my free time, 
            I’m passionate about taekwondo, poker, meditation, reading, and Clubhouse.
         </p>
+        <div class="links">
+            <a href="https://www.facebook.com/kevin.jiang.7186/" target="_blank">
+                <img src="../assets/facebook.png" width="24px"/>
+            </a>
+            <a href="https://www.instagram.com/kev2024/" target="_blank">
+                <img src="../assets/instagram.png" width="24px"/>
+            </a>
+            <a href="mailto:kev2018@mit.edu">
+                <img src="../assets/email.png" width="24px"/>
+            </a>
+            <a href="https://github.com/kev2010" target="_blank">
+                <img src="../assets/github.png" width="24px"/>
+            </a>
+        </div>
       </div>
       <img src="../assets/kevin.png" class="kevin"/>
   </div>
@@ -20,7 +34,7 @@
 
 <script>
 export default {
-  name: "About"
+    name: "About"
 };
 </script>
 
@@ -142,6 +156,15 @@ export default {
 
 .content {
     width: 65%;
+}
+
+.links {
+    display: flex;
+    margin-top: 2rem;
+}
+
+.links img {
+    margin-right: 1.5rem;
 }
 
 .kevin {
