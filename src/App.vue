@@ -7,7 +7,14 @@
 
 <script>
 export default {
-  name: "app"
+  name: "app",
+  watch: {
+  $route(to) {
+     document.title = `${to.meta.title}`;
+     const link = document.querySelector("[rel='icon']");
+     link.setAttribute('href',to.meta.icon);
+  }
+}
 };
 </script>
 

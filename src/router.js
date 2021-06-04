@@ -9,7 +9,11 @@ export default new Router({
     {
       path: '/',
       name: 'Main',
-      component: () => import('./views/Main.vue')
+      component: () => import('./views/Main.vue'),
+      meta: {
+        title: 'Kevin Jiang',
+        icon: "./assets/kevin.png"
+      }
     }
   ]
 })
