@@ -14,6 +14,51 @@ export default new Router({
         title: 'Kevin Jiang',
         icon: "./assets/kevin.png"
       }
-    }
+    },
+    {
+      path: '/about',
+      name: 'Main',
+      component: () => import('./views/Main.vue'),
+      meta: {
+        title: 'Kevin Jiang',
+        icon: "./assets/kevin.png"
+      }
+    },
+    {
+      path: '/experience',
+      name: 'Experience',
+      component: () => import('./views/Experience.vue'),
+      meta: {
+        title: 'Kevin Jiang',
+        icon: "./assets/kevin.png"
+      }
+    },
+    {
+      path: '/projects',
+      name: 'Projects',
+      component: () => import('./views/Projects.vue'),
+      meta: {
+        title: 'Kevin Jiang',
+        icon: "./assets/kevin.png"
+      }
+    },
+    {
+      path: '/activities',
+      name: 'Activities',
+      component: () => import('./views/Activities.vue'),
+      meta: {
+        title: 'Kevin Jiang',
+        icon: "./assets/kevin.png"
+      }
+    },
+    {
+      path: '/lets-talk',
+      name: 'Contact',
+      component: () => import('./views/Contact.vue'),
+      meta: {
+        title: 'Kevin Jiang',
+        icon: "./assets/kevin.png"
+      }
+    },
   ]
 })
