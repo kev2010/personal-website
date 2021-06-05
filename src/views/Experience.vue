@@ -4,7 +4,7 @@
     <Education class="card"/>
     <Coursework class="card"/>
     <Work class="card"/>
-    <p>hi :)</p>
+    <p style="color: #041021;">hi :)</p>
   </div>
 </template>
 
