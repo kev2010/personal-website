@@ -54,6 +54,7 @@ export default {
 }
 
 .section:hover {
+    color: #BFBFBF;
     text-decoration: var(--emphasis) solid underline;
     text-decoration-thickness: 2px;
     text-underline-position: under;
@@ -61,5 +62,9 @@ export default {
 
 .contact {
     color: var(--emphasis);
+}
+
+.contact:hover {
+    color: #2B2387;
 }
 </style>
