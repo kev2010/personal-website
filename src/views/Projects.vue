@@ -143,7 +143,7 @@ export default {
 }
 
 .projects {
-  width: 70%;
+  width: 80%;
   margin-bottom: 4rem;
 
   animation: fadeInAnimation ease 1s;
