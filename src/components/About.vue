@@ -12,7 +12,8 @@
           Focused on building and scaling projects! I love entrepreneurship,
            machine learning, and mobile/web development. In my free time, 
            I’m passionate about taekwondo, poker, meditation, reading, and Clubhouse.
-           Check out the website to see what I'm involved in!
+           Check out the website to see what I'm involved in! Built using Vue. Designed 
+           by intuition. Created with love.
         </p>
         <div class="links">
             <a href="https://www.facebook.com/kevin.jiang.7186/" target="_blank">
