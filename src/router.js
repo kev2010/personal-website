@@ -61,6 +61,15 @@ export default new Router({
       }
     },
     {
+      path: '/activities/taekwondo',
+      name: 'Taekwondo',
+      component: () => import('./views/Taekwondo.vue'),
+      meta: {
+        title: 'Kevin Jiang',
+        icon: "./assets/kevin.png"
+      }
+    },
+    {
       path: '/lets-talk',
       name: 'Contact',
       component: () => import('./views/Contact.vue'),
