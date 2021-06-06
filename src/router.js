@@ -52,6 +52,15 @@ export default new Router({
       }
     },
     {
+      path: '/activities/mit-clubs',
+      name: 'MIT Clubs',
+      component: () => import('./views/MITClubs.vue'),
+      meta: {
+        title: 'Kevin Jiang',
+        icon: "./assets/kevin.png"
+      }
+    },
+    {
       path: '/lets-talk',
       name: 'Contact',
       component: () => import('./views/Contact.vue'),
