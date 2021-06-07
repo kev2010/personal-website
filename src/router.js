@@ -70,6 +70,15 @@ export default new Router({
       }
     },
     {
+      path: '/activities/poker',
+      name: 'Poker',
+      component: () => import('./views/Poker.vue'),
+      meta: {
+        title: 'Kevin Jiang',
+        icon: "./assets/kevin.png"
+      }
+    },
+    {
       path: '/lets-talk',
       name: 'Contact',
       component: () => import('./views/Contact.vue'),

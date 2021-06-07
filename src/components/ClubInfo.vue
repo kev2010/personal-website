@@ -2,12 +2,13 @@
   <div class="club-info">
         <div class="content">
             <div class="main-info">
-                <a class="name" :href="url" target="_blank">{{ name }}</a>
+                <p class="name">{{ name }}</p>
                 <p class="date">{{ date }}</p>
             </div>
             <p class="position">{{ position }}</p>
             <div class="description">
                 <p class="paragraph" v-for="(paragraph, index) in description" :key="index">{{ paragraph }}</p>
+                <a class="paragraph" :href="url" target="_blank">Check out our website!</a>
             </div>
         </div>
   </div>
@@ -47,6 +48,7 @@ export default {
     font-weight: bold;
     font-size: 48px;
     color: white;
+    margin: 0;
 }
 
 .date {
@@ -73,5 +75,6 @@ export default {
     font-weight: 300;
     font-size: 18px;
     width: 100%;
+    color: white;
 }
 </style>
