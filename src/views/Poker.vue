@@ -22,19 +22,9 @@
         <p class="description">For live tournaments, I play in the MIT/Harvard SIG Main Events where I got first place in the 2019 MIT Spring SIG Tournament for $500 and
             second place in the 2021 MIT/Harvard SIG Tournament for $400.
         </p>
-        <ol class="experiences">
-            <li>Making the USA National A-Team for the first time in 2017</li>
-            <li>Representing USA and winning gold at the 2017 Pan-American International Championships in Costa Rica</li>
-            <li>Got bronze in the 2019 World Taekwondo World Cup Championships in Wuxi, China</li>
-            <li>Competing in the USA Team Trials for the Pan American Olympic Games</li>
-            <li>Travelling to train in Seoul, South Korea with a Korean master!</li>
-            <li>Visting and training at Puerto Rico as part of the Eastern Collegiate Taekwondo Conference All-Star Team</li>
-            <li>The countless hours spent training alongside great teammates!</li>
-        </ol>
-        <p class="description">
-            Feel free to check out my <a href="https://www.teamusa.org/usa-taekwondo/athletes/Kevin-Jiang">Team USA profile</a> if you 
-            want a competition record up to 2017. The page is missing some of my most recent competitions like the World Taekwondo 
-            World Cup, 2020 Pan-American International Championships, and recent national championships.
+        <p></p>
+        <p class="description">I also occasionally play at casinos. My first casino experience was in 2018 at the Twin River Casino in Rhode Island, where I lost $200 in
+            a cash game. In 2019, I went to Paradise Casino in South Korea, where I made $140. In 2021, I went to the Hard Rock Casino in Tampa, Florida, where I made $110.
         </p>
     </div>
     <p style="color: #041021; margin: 0;"> hi pt4 ;)</p>
