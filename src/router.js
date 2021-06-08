@@ -79,6 +79,15 @@ export default new Router({
       }
     },
     {
+      path: '/activities/clubhouse',
+      name: 'Clubhouse',
+      component: () => import('./views/Clubhouse.vue'),
+      meta: {
+        title: 'Kevin Jiang',
+        icon: "./assets/kevin.png"
+      }
+    },
+    {
       path: '/lets-talk',
       name: 'Contact',
       component: () => import('./views/Contact.vue'),
