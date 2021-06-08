@@ -24,7 +24,7 @@ export default {
                 {
                     title: "Entrepreneur in Residence at Pop Meals (YC S17)",
                     date: "June 2021 - August 2021",
-                    description: "To do!"
+                    description: "Creating a meal inspection image recognition product and developing their android app."
                 },
                 {
                     title: "Machine Learning Engineer Intern at Oda (YC W20)",
