@@ -95,18 +95,4 @@ export default {
     margin: 0;
     width: 100%;
 }
-
-.experiences {
-    font-weight: 300;
-    font-size: 18px;
-}
-
-a {
-    color: white;
-}
-
-iframe {
-    margin: 4rem 0;
-    width: 60%;
-}
 </style>
