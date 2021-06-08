@@ -14,7 +14,7 @@
                 <router-link to="/activities" class="section">ACTIVITIES</router-link>
             </li>
             <li>
-                <router-link to="/lets-talk" class="section contact">LET'S TALK</router-link>
+                <a href="mailto:kev2018@mit.edu" class="section contact">LET'S TALK</a>
             </li>
         </ul>
     </div>
